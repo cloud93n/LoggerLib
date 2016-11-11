@@ -29,4 +29,4 @@ void Logger::error(std::string message)
     m_fileName << message << std::endl;
 }
 
-//test gitlabddd
+//test gitlab
