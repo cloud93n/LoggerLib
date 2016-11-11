@@ -15,6 +15,7 @@ Logger::Logger(std::string textName)
 void Logger::debug(std::string message)
 {
     m_fileName << message << std::endl;
+
 }
 
 //print warn message
@@ -28,3 +29,4 @@ void Logger::error(std::string message)
     m_fileName << message << std::endl;
 }
 
+//test gitlab
